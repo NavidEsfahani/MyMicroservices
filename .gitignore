@@ -1,0 +1,42 @@
+# remove maven output files
+target/
+*.class
+
+# Mac .DS_Store
+.DS_Store
+
+
+# Eclipse junk
+.settings/
+.settings/*
+src/main/webapp/WEB-INF/lib
+.classpath
+.project
+.externalToolBuilders/
+.metadata
+*.launch
+
+
+src/main/webapp/WEB-INF/deploy/
+src/main/webapp/WEB-INF/classes/
+
+
+ Windows image file caches
+Thumbs.db 
+
+# Windows folder config file
+Desktop.ini
+
+#Ubuntu gEdit shadow files
+*~
+/dropNupdate.sh
+/drop.sql
+
+#IntelliJ stuff
+/.idea/
+*.iml
+id_file
+
+*.log.*
+*.log
+
